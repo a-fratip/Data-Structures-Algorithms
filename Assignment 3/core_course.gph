@@ -1,0 +1,52 @@
+# Graph example for course sequences
+# Considers only courses from engineering core and computer engineering core
+# Does not consider computer engineering electives
+33              # Number of vertices
+D               # Directed weighted graph
+0 1             # List of Edges; 0 is for Math204 and 1 is for COEN212
+0 2             # 0 is for Math204 and 2 is for COEN231
+0 3				# 0 is for Math204 and 3 is for COEN243
+3 4				# 3 is for COEN243 and 4 is for COEN244
+1 5             # 1 is for COEN212 and 5 is for COEN311
+3 5             # 3 is for COEN243 and 5 is for COEN311
+1 6             # 1 is for COEN212 and 6 is for COEN313
+2 6             # 2 is for COEN231 and 6 is for COEN313
+7 8             # 7 is for ELEC273 and 8 is for COEN314
+1 8             # 1 is for COEN212 and 8 is for COEN314
+5 9             # 5 is for COEN311 and 9 is for COEN316
+6 9             # 6 is for COEN313 and 9 is for COEN316
+5 10            # 5 is for COEN311 and 10 is for COEN317
+6 10            # 6 is for COEN313 and 10 is for COEN317
+11 12           # 11 is for COEN346 and 12 is for COEN320
+5 11            # 5 is for COEN311 and 11 is for COEN346
+13 11           # 13 is for COEN352 and 11 is for COEN346
+2 13            # 2 is for COEN231 and 13 is for COEN352
+4 13            # 4 is for COEN244 and 13 is for COEN352
+11 14           # 11 is for COEN346 and 14 is for COEN366
+7 15            # 7 is for ELEC273 and 15 is for ELEC242
+16 15           # 16 is for ENGR213 and 15 is for ELEC242
+15 17           # 15 is for ELEC242 and 17 is for ELEC342
+15 18           # 15 is for ELEC242 and 18 is for ELEC372
+13 19           # 13 is for COEN352 and 19 is for SOEN341
+16 20           # 16 is for ENGR213 and 20 is for ENGR290
+21 20           # 21 is for ENGR233 and 20 is for ENGR290
+22 20           # 22 is for ENCS282 and 20 is for ENGR290
+5 23            # 5 is for COEN311 and 23 is for COEN390
+13 23           # 13 is for COEN352 and 23 is for COEN390
+20 23           # 20 is for ENGR290 and 23 is for COEN390
+24 25           # 24 is for ENGR301 and 25 is for COEN490
+26 25           # 26 is for ENGR371 and 25 is for COEN490
+23 25           # 23 is for COEN390 and 25 is for COEN490
+19 25           # 19 is for SOEN341 and 25 is for COEN490
+27 7            # 27 is for PHYS205 and 7 is for ELEC273
+28 16           # 28 is for MATH205 and 16 is for ENGR213
+0 21            # 0 is for MATH204 and 21 is for ENGR233
+28 21           # 28 is for MATH205 and 21 is for ENGR233
+16 26           # 16 is for ENGR213 and 26 is for ENGR371
+21 26           # 21 is for ENGR233 and 26 is for ENGR371
+16 29           # 16 is for ENGR213 and 29 is for ENGR391
+21 29           # 21 is for ENGR233 and 29 is for ENGR391
+3 29            # 3 is for COEN243 and 29 is for ENGR391
+22 30           # 22 is for ENCS282 and 30 is for ENGR392
+31 30           # 31 is for ENGR201 and 30 is for ENGR392
+32 30           # 32 is for ENGR202 and 30 is for ENGR392
